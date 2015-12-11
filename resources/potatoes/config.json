@@ -1,0 +1,53 @@
+{
+	"type": "Collection",
+	"properties": {
+		"name": {
+			"name": "name",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "name",
+			"order": 0
+		},
+		"createByUser": {
+			"name": "createByUser",
+			"type": "object",
+			"typeLabel": "object",
+			"required": false,
+			"id": "createByUser",
+			"order": 1
+		},
+		"lastUser": {
+			"name": "lastUser",
+			"type": "object",
+			"typeLabel": "object",
+			"required": false,
+			"id": "lastUser",
+			"order": 2
+		},
+		"currentUser": {
+			"name": "currentUser",
+			"type": "object",
+			"typeLabel": "object",
+			"required": false,
+			"id": "currentUser",
+			"order": 3
+		},
+		"secondsToBurn": {
+			"name": "secondsToBurn",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "secondsToBurn",
+			"order": 4
+		},
+		"enable": {
+			"name": "enable",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": false,
+			"id": "enable",
+			"order": 5
+		}
+	}
+}

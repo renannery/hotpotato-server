@@ -1,0 +1,37 @@
+{
+	"type": "Collection",
+	"properties": {
+		"potato": {
+			"name": "potato",
+			"type": "object",
+			"typeLabel": "object",
+			"required": false,
+			"id": "potato",
+			"order": 0
+		},
+		"user": {
+			"name": "user",
+			"type": "object",
+			"typeLabel": "object",
+			"required": false,
+			"id": "user",
+			"order": 1
+		},
+		"datetime": {
+			"name": "datetime",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "datetime",
+			"order": 2
+		},
+		"location": {
+			"name": "location",
+			"type": "object",
+			"typeLabel": "object",
+			"required": false,
+			"id": "location",
+			"order": 3
+		}
+	}
+}

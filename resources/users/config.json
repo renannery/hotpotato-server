@@ -1,0 +1,21 @@
+{
+	"type": "UserCollection",
+	"properties": {
+		"enable": {
+			"name": "enable",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": false,
+			"id": "enable",
+			"order": 0
+		},
+		"chatUsername": {
+			"name": "chatUsername",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "chatUsername",
+			"order": 1
+		}
+	}
+}

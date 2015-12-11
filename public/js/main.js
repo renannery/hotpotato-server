@@ -17,7 +17,7 @@ window.onload = function() {
     function createPotatoAndSend() {
 
         dpd.potatoes.post({
-            name: "NameTest",
+            name: "RandomPotato",
             enable: true,
             secondsToBurn: Math.floor(Math.random() * 60) + 10
         }, function(result, error) {

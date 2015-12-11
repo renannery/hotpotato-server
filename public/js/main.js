@@ -19,7 +19,7 @@ window.onload = function() {
         dpd.potatoes.post({
             name: "RandomPotato",
             enable: true,
-            secondsToBurn: Math.floor(Math.random() * (60 - 10 + 1)) + 10;
+            secondsToBurn: Math.floor(Math.random() * (60 - 10 + 1)) + 10
         }, function(result, error) {
             if (error) {
                 alert(err.message || (err.errors && err.errors.title));

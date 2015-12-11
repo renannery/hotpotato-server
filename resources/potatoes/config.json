@@ -9,21 +9,13 @@
 			"id": "name",
 			"order": 0
 		},
-		"createByUser": {
-			"name": "createByUser",
-			"type": "object",
-			"typeLabel": "object",
-			"required": false,
-			"id": "createByUser",
-			"order": 1
-		},
 		"lastUser": {
 			"name": "lastUser",
 			"type": "object",
 			"typeLabel": "object",
 			"required": false,
 			"id": "lastUser",
-			"order": 2
+			"order": 1
 		},
 		"currentUser": {
 			"name": "currentUser",
@@ -31,7 +23,7 @@
 			"typeLabel": "object",
 			"required": false,
 			"id": "currentUser",
-			"order": 3
+			"order": 2
 		},
 		"secondsToBurn": {
 			"name": "secondsToBurn",
@@ -39,7 +31,7 @@
 			"typeLabel": "number",
 			"required": false,
 			"id": "secondsToBurn",
-			"order": 4
+			"order": 3
 		},
 		"enable": {
 			"name": "enable",
@@ -47,7 +39,7 @@
 			"typeLabel": "boolean",
 			"required": false,
 			"id": "enable",
-			"order": 5
+			"order": 4
 		}
 	}
 }

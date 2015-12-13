@@ -62,6 +62,31 @@ window.onload = function() {
 
     }
 
+    function createUser() {
+        $.ajaxSetup({
+            headers: {
+                "Authorization": "koNH9NW6U11Ws23g",
+                "Content-Type": "application/json"
+            }
+        });
+
+        var user = '{"username": "teste10","password": "p4ssword"}';
+
+        $.ajax({
+            url: 'http://54.94.241.117:9090/plugins/restapi/v1/users',
+            type: "POST",
+            crossDomain: true,
+            xhrFields: {
+                withCredentials: false
+            },
+            data: JSON.stringify(user),
+            success: function(data) {
+                console.log("JSON Data: " + data + " status " + status);
+            }
+        });
+    }
+
+
     function getRandomUser(message) {
         dpd.users.get(function(users, error) {
             if (error) {
